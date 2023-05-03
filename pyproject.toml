@@ -24,6 +24,7 @@ tiktoken = "^0.3.3"
 playwright = "^1.32.1"
 selenium = "^4.9.0"
 unstructured = "^0.6.2"
+py-dotenv = "^0.1"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
