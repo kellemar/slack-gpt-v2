@@ -22,6 +22,8 @@ import agent_tools
 import json
 
 import image_generator
+from dotenv import load_dotenv
+load_dotenv()
 
 # Configuration
 # These are used for labelling the queries with specific intents
