@@ -7,6 +7,8 @@ import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 from PIL import Image
 import io
 import traceback
+from dotenv import load_dotenv
+load_dotenv()
 
 stability_api = client.StabilityInference(
   key=os.environ['STABILITY_KEY'],  # API Key reference.
