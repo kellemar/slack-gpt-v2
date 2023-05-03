@@ -1,6 +1,8 @@
 import os
 # Set up in-memory cache
 import redis
+from dotenv import load_dotenv
+load_dotenv()
 
 # Set up Redis Cache with Upstash. You can create an account
 # at https://console.upstash.com
